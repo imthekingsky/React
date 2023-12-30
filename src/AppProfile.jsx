@@ -6,9 +6,21 @@ function AppProfile() {
 
   return (
     <>
-      <Profile/>
-      <Profile/>
-      <Profile/>
+      <Profile 
+      image='https://images.unsplash.com/photo-1703504260184-bd5c5b3719c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8'
+      name='han'
+      title='개발자'
+      />
+      <Profile 
+      image='https://images.unsplash.com/photo-1683009427479-c7e36bbb7bca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8'
+      name='jab'
+      title='개발자2'
+      />
+            <Profile 
+      image='https://plus.unsplash.com/premium_photo-1703701580129-6c90479fdb36?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8'
+      name='ian'
+      title='개발자3'
+      />
     </>
 
   );
