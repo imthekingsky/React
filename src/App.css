@@ -35,11 +35,17 @@
   font-weight: bold; /*폰트 두껍게*/
 }
 
-.container{
-  display: flex;
-  justify-content: center;
+.container {
+  width: 500px;
+  margin: auto;
 }
-
+.banner {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: gold;
+  font-weight: bold;
+}
 .counter{
   display: flex;
   flex-direction: column;
@@ -68,4 +74,9 @@
     90deg,
     rgba(215,127,12,1)0%,rgba(253,220,29,1)100%
   );
+}
+
+.total{
+  font-size: 2rem;
+  /* margin-left: -1.5rem; */
 }
