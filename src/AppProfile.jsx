@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile';
+import Avatar from './components/Avatar';
 
 function AppProfile() {
 
   return (
     <>
+    <Avatar 
+      image={'https://images.unsplash.com/photo-1703504260184-bd5c5b3719c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8'}
+      isNew={true}
+      />
+      
       <Profile 
       image='https://images.unsplash.com/photo-1703504260184-bd5c5b3719c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8'
       name='han'
